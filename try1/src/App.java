@@ -29,6 +29,16 @@ class Variables {
         System.out.println("Boolean: " + myBool);
         System.out.println("String: " + myText);
         System.out.println("Double: " + myDoubleNum);
+        int myNum1 = 10;
+        double MYdouble = 12345.678;
+        System.out.println(myNum1);
+        System.out.println(MYdouble);
+        float myfloat = 5.57f;
+        System.out.println(myfloat);
+        boolean myboolean = false;
+        System.out.println(myboolean); 
+        String myString = "Java Programming";
+        System.out.println(myString);
     }
 }
 
