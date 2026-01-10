@@ -1,5 +1,5 @@
 //the name of the file must match with the public class name in the code
-public class App{
+public class Mypractice{
     public static void main(String[] args) {
         System.out.println("hello world");
     }
@@ -13,7 +13,7 @@ multiline commenting format in java */
 // JAVA VARIABLES
 // there are five types of variables in java such as:
 /* int, float, char, boolean, String */
-class Variables {
+class VARIABLES {
       public static void main(String[] args) {
         // Variable declaration and initialization
         int myNum = 5;               // Integer (whole number)
@@ -41,5 +41,3 @@ class Variables {
         System.out.println(myString);
     }
 }
-
-
