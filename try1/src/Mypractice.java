@@ -13,7 +13,7 @@ multiline commenting format in java */
 // JAVA VARIABLES
 // there are five types of variables in java such as:
 /* int, float, char, boolean, String */
-class VARIABLES {
+class Variables {
       public static void main(String[] args) {
         // Variable declaration and initialization
         int myNum = 5;               // Integer (whole number)
