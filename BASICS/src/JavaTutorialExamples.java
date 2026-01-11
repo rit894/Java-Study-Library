@@ -10,7 +10,7 @@ public class JavaTutorialExamples {
 
         // 3. Java Comments
         // This is a single-line comment
-        /* This is a 
+        /* This is a
            multi-line comment */
 
         // 4. Java Variables
@@ -123,8 +123,55 @@ public class JavaTutorialExamples {
         boolean isFishTasty = false;
         System.out.println("Is Java fun? " + isJavaFun);
         System.out.println("Is fish tasty? " + isFishTasty);
-    }
-}
 
+        // 11. If Else Statements
+        boolean isLoggedIn = true;
+        boolean isAdmin = false;
+        int securityLevel = 3; // 1 = highest
+
+        if (isLoggedIn && (isAdmin || securityLevel <= 2)) {
+        System.out.println("Access granted");
+        } else {
+        System.out.println("Access denied");
+        }
+
+        // Try changing securityLevel to test different outcomes:
+        //
+        // securityLevel 1 = Access granted
+        // securityLevel 2 = Access granted
+        // securityLevel 3 = Access denied
+        // securityLevel 4 = Access denied
+        //
+        // If isAdmin = true, access is granted.
+        
+        // 12. Short hand If Else
+        int time = 20;
+        String result = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
+
+        //13. While Loop
+        int dice = 1;
+
+        while (dice <= 6) {
+        if (dice < 6) {
+            System.out.println("No Yatzy.");
+        } else {
+            System.out.println("Yatzy!");
+        }
+        dice = dice + 1;
+
+        }
+
+        //14. For Loop
+        for (int i = 1; i <= 5; i++) {
+        System.out.println("Iteration " + i);
+        
+    }
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+        for (String car : cars) {
+        System.out.println(car);
+}
+}}
 
 
