@@ -1,4 +1,5 @@
 //the name of the file must match with the public class name in the code
+import java.util.ArrayList;
 public class Mypractice{
     public static void main(String[] args) {
         System.out.println("hello world");
@@ -12,7 +13,7 @@ multiline commenting format in java */
 
 // JAVA VARIABLES
 // there are five types of variables in java such as:
-/* int, float, char, boolean, String */
+/* int, float, char, boolean, String*/
 class VARIABLES {
       public static void main(String[] args) {
         // Variable declaration and initialization
@@ -36,8 +37,24 @@ class VARIABLES {
         float myfloat = 5.57f;
         System.out.println(myfloat);
         boolean myboolean = false;
-        System.out.println(myboolean); 
+        System.out.println(myboolean);
         String myString = "Java Programming";
         System.out.println(myString);
+        
+        var cars = new ArrayList<String>();
+        cars.add("volvo");
+        cars.add("BMV");
+        cars.add(0,"pig");
+        System.out.println(cars);
+        for (String car : cars ){
+            System.out.println(car);
+            if (car=="pig"){
+                continue;}
+            System.out.println(cars.size());
+            
+        }
+
+
+
     }
 }
