@@ -48,8 +48,8 @@ class VARIABLES {
         System.out.println(cars);
         for (String car : cars ){
             System.out.println(car);
-            if (car == "pig"){
-                continue;}
+            if (car.equals("pig")){
+                System.out.println("Found pig!");}
             System.out.println(cars.size());
             
         }
