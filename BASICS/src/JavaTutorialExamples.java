@@ -117,6 +117,7 @@ public class JavaTutorialExamples {
         System.out.println("Floor 5.75: " + Math.floor(5.75));
         System.out.println("Random (0-1): " + Math.random());
         System.out.println("Random (0-100): " + (int)(Math.random() * 101));
+        
 
         // 10. Java Booleans
         boolean isJavaFun = true;
