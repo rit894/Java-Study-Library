@@ -1,5 +1,4 @@
 package Jva.com;
-
 public class HarmonicSum {
 public static void main(String[] args) {
     int max_denominator=20;
