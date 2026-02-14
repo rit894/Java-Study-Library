@@ -1,26 +1,26 @@
 package PRAC;
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 class bankAccount{
 	 private String accountNumber;
 	    private String accountHolder;
 	    private double balance;
 
-	    // No‑argument constructor
+	    
 	    public bankAccount() {
 	        accountNumber = "default";
 	        accountHolder = "Physic";
 	        balance = 0.0;
 	    }
 
-	    // Parameterized constructor
+	    
 	    public bankAccount(String a, String b, double c) {
 	        accountNumber = a;
 	        accountHolder = b;
 	        balance = c;
 	    }
 
-	    // Deposit method
+	    
 	    public void deposit(double a) {
 	        if (a > 0) {
 	            balance += a;   // FIXED
@@ -30,7 +30,7 @@ class bankAccount{
 	        }
 	    }
 
-	    // Withdraw method
+	  
 	    public void withdraw(double a) {
 	        if (a <= 0) {
 	            System.out.println("Invalid withdrawal amount");
@@ -46,7 +46,7 @@ class bankAccount{
 	    }
 
 
-	    // Display details
+	   
 	    public void displayAccountDetails() {
 	        System.out.println("\n--- Account Details ---");
 	        System.out.println("Account Number : " + accountNumber);
