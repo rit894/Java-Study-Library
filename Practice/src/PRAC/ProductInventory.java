@@ -1,5 +1,7 @@
 package PRAC;
 class Product{
+	
+
 private String productId;
 private String productName;
 private double  price;
@@ -7,10 +9,13 @@ private int Quantity;
 
 
 public Product() {
+	
 	productId="Unknown";
 	productName = "Unknown";
 	price = 0.0;
 	Quantity = 0;
+	
+	
 }
  
 public Product(String p,String pn,double pr,int q) {

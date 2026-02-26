@@ -3,6 +3,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 class Movie {
+	
     private int movieId;
     private String movieName;
     private int totalSeats;
