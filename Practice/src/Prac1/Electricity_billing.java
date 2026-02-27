@@ -49,7 +49,7 @@ class BillingAccount{
 
 
 	    if (islate) {
-	        cost += cost * 0.05; // 5% late fee
+	        cost += cost * 0.05; 
 	    }
 
 	    System.out.println("Cost : " + cost);
