@@ -52,6 +52,11 @@ public void displayProductDetails() {
 	
 }
 
+public double getPrice() {
+	// TODO Auto-generated method stub
+	return price;
+}
+
 
 }
 
