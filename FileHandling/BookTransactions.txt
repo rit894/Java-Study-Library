@@ -1,0 +1,3 @@
+Book id : 123 | Book title  : Java Advanced | Borrower Name : pandhiIs book taken : false
+Book id : 123 | Book title  : Java Advanced | Borrower Name : pandhiIs book taken : false
+Book id : 123 | Book title  : Java Advanced | Borrower Name : pandhiIs book taken : true

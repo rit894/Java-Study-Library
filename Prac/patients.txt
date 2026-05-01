@@ -1,0 +1,3 @@
+Patient ID: 101 | Name: Meera | Disease: Cardiac Arrest | Bill: 0
+Patient ID: 101 | Name: Meera | Disease: Cardiac Arrest | Bill: 50000
+Patient ID: 101 | Name: Meera | Disease: Cardiac Arrest | Bill: 50000
